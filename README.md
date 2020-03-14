@@ -3,7 +3,7 @@
 This is a dev cluster to study the *Elasticsearch Engineer I Course*. The original datasets from the course are automatically pushed to the Elasticsearch cluster.
 
 - Uncompress the datasets
-`tar -C sources -xvf sources/datasets.tar.gz`
+`tar -xvf sources/datasets.tar.gz`
 - Deploy the cluster
 `docker-compose up`
 - Open *localhost:5601* for Kibana
